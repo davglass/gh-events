@@ -40,7 +40,19 @@ authentication
 --------------
 
 Supports the authentication used in the [github module](https://github.com/mikedeboer/node-github#authentication).
-The `auth` config `Object` should be the value passed to the `authenticate` method.
+The `auth` config `Object` should be the value passed to the `authenticate` method. If no auth is given then your script
+will be subject to the stricter rate limiting rules.
+
+configuration
+-------------
+
+All options are optional. If `org`, `repo` and `user` are all omitted then all github events will be polled.
+
+   * `org` - Listen for org level events
+   * `user`- Listen for user level events
+   * `repo` - Listen for user/repo events (requires user)
+   * `auth` - See above
+   * `userAgent` - A string to use as the userAgent when talking to the api
 
 events
 ------
