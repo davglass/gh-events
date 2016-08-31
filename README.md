@@ -95,3 +95,4 @@ See the [LICENSE file][] for license text and copyright information.
 [david-badge]: https://img.shields.io/david/davglass/gh-events.svg?style=flat-square
 [travis]: https://travis-ci.org/davglass/gh-events
 [travis-badge]: https://img.shields.io/travis/davglass/gh-events/master.svg?style=flat-square
+[LICENSE file]: https://github.com/davglass/gh-events/blob/master/LICENSE
