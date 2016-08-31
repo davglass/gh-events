@@ -4,6 +4,7 @@ Github Events Emitter
 [![npm Version][npm-badge]][npm]
 [![Build Status][travis-badge]][travis]
 [![Dependency Status][david-badge]][david]
+[![Coverage][coveralls-badge]][coveralls]
 
 This module will poll the [Events API](https://developer.github.com/v3/activity/events/) and `emit` events as it sees them.
 
@@ -96,3 +97,5 @@ See the [LICENSE file][] for license text and copyright information.
 [travis]: https://travis-ci.org/davglass/gh-events
 [travis-badge]: https://img.shields.io/travis/davglass/gh-events/master.svg?style=flat-square
 [LICENSE file]: https://github.com/davglass/gh-events/blob/master/LICENSE
+[coveralls]: https://coveralls.io/github/davglass/gh-events?branch=master
+[coveralls-badge]: https://coveralls.io/repos/github/davglass/gh-events/badge.svg?branch=master
