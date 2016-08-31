@@ -1,6 +1,10 @@
 Github Events Emitter
 =====================
 
+[![npm Version][npm-badge]][npm]
+[![Build Status][travis-badge]][travis]
+[![Dependency Status][david-badge]][david]
+
 This module will poll the [Events API](https://developer.github.com/v3/activity/events/) and `emit` events as it sees them.
 
 This is useful for places where you can't have a public webhook to consume these events.
@@ -78,3 +82,16 @@ along on the following requests and only acts on data that is new.
 
 It also stores the etag, poll time and latest event id to disk after each fetch so that if the script is restarted it will
 continue on from where it left off. This will keep events from being fired off twice.
+
+license
+-------
+
+This software is free to use under the Yahoo Inc. BSD license.
+See the [LICENSE file][] for license text and copyright information.
+
+[npm]: https://www.npmjs.org/package/gh-events
+[npm-badge]: https://img.shields.io/npm/v/gh-events.svg?style=flat-square
+[david]: https://david-dm.org/yahoo/gh-events
+[david-badge]: https://img.shields.io/david/davglass/gh-events.svg?style=flat-square
+[travis]: https://travis-ci.org/davglass/gh-events
+[travis-badge]: https://img.shields.io/travis/davglass/gh-events/master.svg?style=flat-square
