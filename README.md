@@ -98,4 +98,4 @@ See the [LICENSE file][] for license text and copyright information.
 [travis-badge]: https://img.shields.io/travis/davglass/gh-events/master.svg?style=flat-square
 [LICENSE file]: https://github.com/davglass/gh-events/blob/master/LICENSE
 [coveralls]: https://coveralls.io/github/davglass/gh-events?branch=master
-[coveralls-badge]: https://coveralls.io/repos/github/davglass/gh-events/badge.svg?branch=master
+[coveralls-badge]: https://img.shields.io/coveralls/davglass/gh-events/master.svg?style=flat-square
