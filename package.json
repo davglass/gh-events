@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.12",
-    "eslint": "^3.4.0",
+    "eslint": "^3.9.0",
     "istanbul": "^0.4.5",
     "jenkins-mocha": "^3.0.0",
     "mockery": "^1.7.0",
