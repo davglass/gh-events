@@ -4,7 +4,7 @@
   "description": "Event emitter for github events",
   "main": "index.js",
   "dependencies": {
-    "github": "^3.0.0"
+    "github": "^6.1.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.12",
